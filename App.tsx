@@ -8,7 +8,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'dark-grey',
+    backgroundColor: '#2b2b2b',
   },
 });
-
