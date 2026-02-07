@@ -1,20 +1,13 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 export default function App() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        backgroundColor: 'dark-grey',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-      <Text style={{ fontSize: 30, color: 'white' }}>
-        
-      </Text>
-    </View>
-  );
+  return <View style={styles.container} />;
 }
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#2b2b2b',
+  },
+});
